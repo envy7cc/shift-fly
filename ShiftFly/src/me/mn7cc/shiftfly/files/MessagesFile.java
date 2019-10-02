@@ -1,10 +1,10 @@
-package net.minefall.shiftfly.files;
+package me.mn7cc.shiftfly.files;
 
 import java.io.File;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
-import net.minefall.shiftfly.custom.Message;
+import me.mn7cc.shiftfly.custom.Message;
 
 public class MessagesFile extends BaseFile {
 	

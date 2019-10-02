@@ -1,8 +1,8 @@
-package net.minefall.shiftfly.custom;
+package me.mn7cc.shiftfly.custom;
 
 import org.bukkit.Bukkit;
 
-import net.minefall.shiftfly.util.TextUtils;
+import me.mn7cc.shiftfly.util.TextUtils;
 
 public class Log {
 	

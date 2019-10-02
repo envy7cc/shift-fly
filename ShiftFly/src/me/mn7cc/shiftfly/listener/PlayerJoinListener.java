@@ -1,4 +1,4 @@
-package net.minefall.shiftfly.listener;
+package me.mn7cc.shiftfly.listener;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -6,7 +6,7 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 
-import net.minefall.shiftfly.custom.Database;
+import me.mn7cc.shiftfly.custom.Database;
 
 public class PlayerJoinListener implements Listener {
 	

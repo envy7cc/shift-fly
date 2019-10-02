@@ -1,16 +1,16 @@
-package net.minefall.shiftfly.command;
+package me.mn7cc.shiftfly.command;
 
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import net.minefall.shiftfly.custom.Database;
-import net.minefall.shiftfly.custom.FileManager;
-import net.minefall.shiftfly.custom.Message;
-import net.minefall.shiftfly.files.ConfigFile;
-import net.minefall.shiftfly.util.MathUtils;
-import net.minefall.shiftfly.util.MessageUtils;
-import net.minefall.shiftfly.util.ServerUtils;
-import net.minefall.shiftfly.util.StringUtils;
+import me.mn7cc.shiftfly.custom.Database;
+import me.mn7cc.shiftfly.custom.FileManager;
+import me.mn7cc.shiftfly.custom.Message;
+import me.mn7cc.shiftfly.files.ConfigFile;
+import me.mn7cc.shiftfly.util.MathUtils;
+import me.mn7cc.shiftfly.util.MessageUtils;
+import me.mn7cc.shiftfly.util.ServerUtils;
+import me.mn7cc.shiftfly.util.StringUtils;
 
 public class ShiftFlyCommand {
 

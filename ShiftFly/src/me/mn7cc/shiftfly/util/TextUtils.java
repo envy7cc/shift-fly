@@ -1,4 +1,4 @@
-package net.minefall.shiftfly.util;
+package me.mn7cc.shiftfly.util;
 
 import java.util.ArrayList;
 import java.util.List;

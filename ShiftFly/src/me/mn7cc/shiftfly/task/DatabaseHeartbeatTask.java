@@ -1,6 +1,6 @@
-package net.minefall.shiftfly.task;
+package me.mn7cc.shiftfly.task;
 
-import net.minefall.shiftfly.custom.Database;
+import me.mn7cc.shiftfly.custom.Database;
 
 public class DatabaseHeartbeatTask implements Runnable {
 	

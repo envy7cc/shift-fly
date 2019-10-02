@@ -1,4 +1,4 @@
-package net.minefall.shiftfly.listener;
+package me.mn7cc.shiftfly.listener;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -7,9 +7,9 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.entity.EntityDamageEvent.DamageCause;
 
-import net.minefall.shiftfly.custom.Database;
-import net.minefall.shiftfly.custom.FileManager;
-import net.minefall.shiftfly.files.ConfigFile;
+import me.mn7cc.shiftfly.custom.Database;
+import me.mn7cc.shiftfly.custom.FileManager;
+import me.mn7cc.shiftfly.files.ConfigFile;
 
 public class EntityDamageListener implements Listener {
 	

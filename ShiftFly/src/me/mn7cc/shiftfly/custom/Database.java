@@ -1,4 +1,4 @@
-package net.minefall.shiftfly.custom;
+package me.mn7cc.shiftfly.custom;
 
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
@@ -12,9 +12,9 @@ import java.util.UUID;
 
 import org.bukkit.entity.Player;
 
-import net.minefall.shiftfly.files.ConfigFile;
-
 import com.zaxxer.hikari.HikariDataSource;
+
+import me.mn7cc.shiftfly.files.ConfigFile;
 
 public class Database {
 	

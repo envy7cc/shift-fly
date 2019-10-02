@@ -1,4 +1,4 @@
-package net.minefall.shiftfly.custom;
+package me.mn7cc.shiftfly.custom;
 
 public enum Message {
 

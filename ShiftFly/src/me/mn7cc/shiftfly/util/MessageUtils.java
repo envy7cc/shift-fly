@@ -1,4 +1,4 @@
-package net.minefall.shiftfly.util;
+package me.mn7cc.shiftfly.util;
 
 import java.util.HashMap;
 import java.util.Map.Entry;
@@ -7,9 +7,9 @@ import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import net.minefall.shiftfly.custom.FileManager;
-import net.minefall.shiftfly.custom.Message;
-import net.minefall.shiftfly.files.MessagesFile;
+import me.mn7cc.shiftfly.custom.FileManager;
+import me.mn7cc.shiftfly.custom.Message;
+import me.mn7cc.shiftfly.files.MessagesFile;
 
 public class MessageUtils {
 	

@@ -1,4 +1,4 @@
-package net.minefall.shiftfly.util;
+package me.mn7cc.shiftfly.util;
 
 public class MathUtils {
 

@@ -1,4 +1,4 @@
-package net.minefall.shiftfly.files;
+package me.mn7cc.shiftfly.files;
 
 import java.io.File;
 import java.util.Arrays;

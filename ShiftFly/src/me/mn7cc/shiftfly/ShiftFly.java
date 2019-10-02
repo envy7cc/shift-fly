@@ -1,4 +1,4 @@
-package net.minefall.shiftfly;
+package me.mn7cc.shiftfly;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
@@ -6,14 +6,14 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import net.minefall.shiftfly.command.ShiftFlyCommand;
-import net.minefall.shiftfly.custom.Database;
-import net.minefall.shiftfly.custom.FileManager;
-import net.minefall.shiftfly.listener.EntityDamageListener;
-import net.minefall.shiftfly.listener.PlayerJoinListener;
-import net.minefall.shiftfly.listener.PlayerMoveListener;
-import net.minefall.shiftfly.task.DatabaseHeartbeatTask;
-import net.minefall.shiftfly.util.MessageUtils;
+import me.mn7cc.shiftfly.command.ShiftFlyCommand;
+import me.mn7cc.shiftfly.custom.Database;
+import me.mn7cc.shiftfly.custom.FileManager;
+import me.mn7cc.shiftfly.listener.EntityDamageListener;
+import me.mn7cc.shiftfly.listener.PlayerJoinListener;
+import me.mn7cc.shiftfly.listener.PlayerMoveListener;
+import me.mn7cc.shiftfly.task.DatabaseHeartbeatTask;
+import me.mn7cc.shiftfly.util.MessageUtils;
 
 public class ShiftFly extends JavaPlugin {
 	

@@ -1,7 +1,7 @@
 name: ShiftFly
 version: 1.0.0
-author: Envy7CC
-main: net.minefall.shiftfly.ShiftFly
+author: mn7cc
+main: me.mn7cc.shiftfly.ShiftFly
 
 commands:
   shiftfly:

@@ -1,4 +1,4 @@
-package net.minefall.shiftfly.files;
+package me.mn7cc.shiftfly.files;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.util.Map.Entry;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 
-import net.minefall.shiftfly.custom.FileManager;
+import me.mn7cc.shiftfly.custom.FileManager;
 
 public class BaseFile {
 	

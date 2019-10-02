@@ -1,4 +1,4 @@
-package net.minefall.shiftfly.custom;
+package me.mn7cc.shiftfly.custom;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -6,9 +6,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import net.minefall.shiftfly.ShiftFly;
-import net.minefall.shiftfly.files.ConfigFile;
-import net.minefall.shiftfly.files.MessagesFile;
+import me.mn7cc.shiftfly.ShiftFly;
+import me.mn7cc.shiftfly.files.ConfigFile;
+import me.mn7cc.shiftfly.files.MessagesFile;
 
 public class FileManager {
 	
