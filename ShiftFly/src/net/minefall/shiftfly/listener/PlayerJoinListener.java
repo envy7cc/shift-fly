@@ -10,7 +10,7 @@ import net.minefall.shiftfly.custom.Database;
 
 public class PlayerJoinListener implements Listener {
 	
-	@EventHandler (priority = EventPriority.LOWEST)
+	@EventHandler (priority = EventPriority.HIGHEST)
 	public void onPlayerJoin(PlayerJoinEvent event) {
  		
     	Player player = event.getPlayer();

@@ -29,6 +29,7 @@ public class Database {
 			ConfigFile config = FileManager.getConfig();
 			
 			if(config.isUsingMySQL()) {
+				
 				datasource.setJdbcUrl("jdbc:mysql://" + config.getMySQLHostname() + ":" + config.getMySQLPort() + "/" + config.getMySQLDatabase());
 				datasource.setUsername(config.getMySQLUsername());
 				datasource.setPassword(config.getMySQLPassword());
@@ -37,11 +38,14 @@ public class Database {
 				datasource.addDataSourceProperty("cachePrepStmts", "true");
 				datasource.addDataSourceProperty("prepStmtCacheSize", "250");
 				datasource.addDataSourceProperty("prepStmtCacheSqlLimit", "2048");
+				
 			}
 			else {
+				
 				datasource.setJdbcUrl("jdbc:sqlite:plugins/ShiftFly/database.db");
 				datasource.setMinimumIdle(3);
 				datasource.setMaximumPoolSize(3);
+				
 			}
 			
 			Connection connection = getConnection();
