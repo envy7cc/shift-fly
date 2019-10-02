@@ -1,0 +1,8 @@
+name: ShiftFly
+version: 1.0.0
+author: Envy7CC
+main: net.minefall.shiftfly.ShiftFly
+
+commands:
+  shiftfly:
+    aliases: [sf]
