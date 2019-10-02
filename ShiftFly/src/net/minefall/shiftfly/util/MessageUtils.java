@@ -35,7 +35,6 @@ public class MessageUtils {
 		
 			int index = 0;
 			for(String v : values) {
-				System.out.print(v);
 				result = result.replaceAll("\\{" + index + "\\}", v);
 				index++;
 			}

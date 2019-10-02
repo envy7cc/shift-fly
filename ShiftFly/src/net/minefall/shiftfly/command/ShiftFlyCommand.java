@@ -101,8 +101,8 @@ public class ShiftFlyCommand {
 			MessageUtils.send(player, Message.FLY_MODE_ENABLED, StringUtils.toString(speed));
 		}
 		else {
-			MessageUtils.send(player, Message.FLY_MODE_ENABLED_OTHER, target.getName(), StringUtils.toString(speed));
-			MessageUtils.send(target, Message.FLY_MODE_ENABLED_TARGET, player.getName(), StringUtils.toString(speed));
+			MessageUtils.send(player, Message.FLY_MODE_ENABLED_OTHER, StringUtils.toString(speed), target.getName());
+			MessageUtils.send(target, Message.FLY_MODE_ENABLED_TARGET, StringUtils.toString(speed), player.getName());
 		}
 		
 		return;

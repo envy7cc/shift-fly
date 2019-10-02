@@ -9,6 +9,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import net.minefall.shiftfly.command.ShiftFlyCommand;
 import net.minefall.shiftfly.custom.Database;
 import net.minefall.shiftfly.custom.FileManager;
+import net.minefall.shiftfly.listener.EntityDamageListener;
 import net.minefall.shiftfly.listener.PlayerJoinListener;
 import net.minefall.shiftfly.listener.PlayerMoveListener;
 import net.minefall.shiftfly.task.DatabaseHeartbeatTask;
@@ -29,6 +30,7 @@ public class ShiftFly extends JavaPlugin {
 		Database.setup();
 		Database.load();
 		
+		Bukkit.getServer().getPluginManager().registerEvents(new EntityDamageListener(), this);
 		Bukkit.getServer().getPluginManager().registerEvents(new PlayerJoinListener(), this);
 		Bukkit.getServer().getPluginManager().registerEvents(new PlayerMoveListener(), this);
 		
