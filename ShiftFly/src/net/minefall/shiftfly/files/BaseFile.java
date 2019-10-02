@@ -2,7 +2,9 @@ package net.minefall.shiftfly.files;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map.Entry;
 
 import org.bukkit.configuration.file.FileConfiguration;
@@ -60,6 +62,10 @@ public class BaseFile {
 	
 	public boolean getBooleanValue(String path) {
 		return data.contains(path) ? data.getBoolean(path) : null;
+	}
+	
+	public List<String> getStringListValue(String path) {
+		return data.contains(path) ? data.getStringList(path) : new ArrayList<String>();
 	}
 	
 	public boolean containsValue(String path) {

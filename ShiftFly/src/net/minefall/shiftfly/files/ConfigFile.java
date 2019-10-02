@@ -1,7 +1,9 @@
 package net.minefall.shiftfly.files;
 
 import java.io.File;
+import java.util.Arrays;
 import java.util.LinkedHashMap;
+import java.util.List;
 
 public class ConfigFile extends BaseFile {
 	
@@ -29,6 +31,7 @@ public class ConfigFile extends BaseFile {
 		defaults.put("mysql.password", "password");
 		defaults.put("min-fly-speed", 1);
 		defaults.put("max-fly-speed", 5);
+		defaults.put("disabled-worlds", Arrays.asList("world_no_1", "another_world"));
 		
 		return defaults;
 		
@@ -42,5 +45,6 @@ public class ConfigFile extends BaseFile {
 	public String getMySQLPassword() { return getStringValue("mysql.password"); }
 	public double getMinFlySpeed() { return getIntegerValue("min-fly-speed"); }
 	public double getMaxFlySpeed() { return getIntegerValue("max-fly-speed"); }
+	public List<String> getDisabledWorlds() { return getStringListValue("disabled-worlds"); }
 	
 }

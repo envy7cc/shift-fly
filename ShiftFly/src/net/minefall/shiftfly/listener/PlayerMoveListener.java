@@ -9,6 +9,8 @@ import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.util.Vector;
 
 import net.minefall.shiftfly.custom.Database;
+import net.minefall.shiftfly.custom.FileManager;
+import net.minefall.shiftfly.files.ConfigFile;
 
 public class PlayerMoveListener implements Listener {
 	
@@ -16,6 +18,9 @@ public class PlayerMoveListener implements Listener {
 	public void onPlayerMove(PlayerMoveEvent event) {
 		
 		Player player = event.getPlayer();
+		
+		ConfigFile config = FileManager.getConfig();
+		if(config.getDisabledWorlds().contains(player.getWorld().getName()) && !player.hasPermission("shiftfly.bypass")) return;
 		
 		if(!player.hasPermission("shiftfly.use"));
 		
